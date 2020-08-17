@@ -7,12 +7,12 @@
   DTS:CreatorName="OWS\tsyed"
   DTS:DTSID="{C8D9708C-FF9D-49E3-976C-174E0090B354}"
   DTS:ExecutableType="Microsoft.Package"
-  DTS:LastModifiedProductVersion="14.0.3002.92"
+  DTS:LastModifiedProductVersion="15.0.2000.123"
   DTS:LocaleID="1033"
   DTS:ObjectName="LCGMS_ESB_NYCAPS_Extract1"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{A9A98934-7EA4-4029-82A4-DCE23F0D2C93}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{B9CAA7D2-6A90-4046-BFB1-E36E0C1DE40E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7+dsxWgHt02V2z8Cy7P11AAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAACvAM+Hx/2S+pUsvH1jd+4xAAAAAASAAACgAAAAEAAAALVOV+vrDzsCLxEhRN4e3+AQAAAAFEq8avZGlAad/0Wqy7Yy/RQAAABCfsjTHmE9XFiudj1K67UOmEZ0/Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOEL2pU9uLEK9DaK/PHIjFgAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADY0Nrbz9Xkid3eUNgpO0YUAAAAAASAAACgAAAAEAAAAKY39ex1vHVLGv268Bj8CtIQAAAAIHFIXbQjek8H8VQUS5SpnBQAAAD300fhusfj7U8aE4L3XVEB7rZH+A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -256,13 +256,13 @@
     <DTS:Executable
       DTS:refId="Package\Send Mail Task - Step 05 Check The Switch Failed To Process"
       DTS:CreationName="Microsoft.SendMailTask"
-      DTS:Description="Send Mail Task - Step 05 Check The Switch Failed To Process"
+      DTS:Description="Send Mail Task - Step 05 Check The Switch Failed To Process..."
       DTS:DTSID="{50f8deb0-cad0-471c-b423-eaeffda0f883}"
       DTS:ExecutableType="Microsoft.SendMailTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task - Step 05 Check The Switch Failed To Process"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="5">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0">
@@ -314,7 +314,7 @@
           SendMailTask:From="LCGMS_ESB_NYCAPS_Extract1@schools.nyc.gov"
           SendMailTask:To="DATALoadLCGMS@schools.nyc.gov"
           SendMailTask:Subject="Step05: Send Mail Task Step Check The Switch Failed To Process - ES11VdSINFSQL01"
-          SendMailTask:MessageSource="Message Source: Send Mail Task Step Check The Switch Failed To Process" xmlns:SendMailTask="www.microsoft.com/sqlserver/dts/tasks/sendmailtask" />
+          SendMailTask:MessageSource="Message Source: Send Mail Task Step Check The Switch Failed To Process." xmlns:SendMailTask="www.microsoft.com/sqlserver/dts/tasks/sendmailtask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -326,7 +326,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task - Step Check The Switch &amp; Exit"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="6">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0">
@@ -390,7 +390,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Completed NYCAPS Data Processed Successfully"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="7">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -459,7 +459,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step15 Problem Writing IN LCGMS_ESB_Storage_Staging_NYCAPS Table"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="8">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0">
@@ -523,7 +523,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step20 Get the record count"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="9">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -588,7 +588,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step25 Execute To CreateKeys"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -653,7 +653,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step30 Get MaxRowID"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -718,7 +718,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step35 Get MinRowID"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -783,7 +783,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step40 Generate XML Files"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="8">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -848,7 +848,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Send Mail Task Step45 Save Last-Hour's Timestampes"
       DTS:TaskContact="Send Mail Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="9">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -936,7 +936,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step10 Get Current date &amp; Time"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0" />
@@ -1081,7 +1081,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step15 Problem Writing in LCGMS_ESB_Storage_Staging_NYCAPS Table -  Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="3">
+      DTS:ThreadHint="8">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1142,7 +1142,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step15 Writing IN LCGMS_ESB_Storage_Staging_NYCAPS Table"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1203,7 +1203,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step20 Get the record count"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1269,7 +1269,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step20 Get the record count Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="4">
+      DTS:ThreadHint="9">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1330,7 +1330,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step25 Execute To CreateKeys"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1391,7 +1391,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step25 Execute To CreateKeys Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="5">
+      DTS:ThreadHint="3">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1452,7 +1452,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step30 Get MaxRowID"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1518,7 +1518,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step30 Get MaxRowID Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="6">
+      DTS:ThreadHint="4">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1579,7 +1579,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step35 Get MinRowID"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1645,7 +1645,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Step35 Get MinRowID Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="7">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -1705,7 +1705,7 @@
       DTS:ExecutableType="Microsoft.ScriptTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Step40 Generate XML Files for ESB"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -2828,7 +2828,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="Step40 Generate XML Files for ESB Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="8">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -2950,7 +2950,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
       DTS:LocaleID="-1"
       DTS:ObjectName="Step45 Save Last-Hour's Timestamp Rollback"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="9">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:LoggingOptions
         DTS:FilterKind="0"
@@ -3253,7 +3253,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph" xmlns:mssge="clr-namespace:Microsoft.SqlServer.Graph.Extended;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
         <NodeLayout
           Size="275,44"
           Id="Package\Send Mail Task - Step 05 Check The Switch Failed To Process"
@@ -3371,7 +3371,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="243,84">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="281.5,40"
               Start="0,0"
               End="281.5,32.5">
@@ -3407,7 +3407,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,64">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="49,0"
               Start="0,0"
               End="41.5,0">
@@ -3431,7 +3431,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,666.988207547169">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3455,7 +3455,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,616.125">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3477,7 +3477,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,692.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3499,7 +3499,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,769.375">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3521,7 +3521,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,745.1875">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3545,7 +3545,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,216.981132075472">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3569,7 +3569,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,290.504043126684">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3593,7 +3593,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,371.526954177897">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3617,7 +3617,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,444.04986522911">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3641,7 +3641,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="197.5,84">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,105"
               Start="0,0"
               End="0,97.5">
@@ -3665,7 +3665,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,368.125">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3689,7 +3689,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,520.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3713,7 +3713,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,522.072776280323">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3737,7 +3737,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,594.354952830189">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3761,7 +3761,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,595.388140161725">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3785,7 +3785,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,666.231805929919">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3809,7 +3809,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="654,744.641509433962">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="119,0"
               Start="0,0"
               End="111.5,0">
@@ -3833,7 +3833,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,233">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3855,7 +3855,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,441.4375">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3879,7 +3879,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,212">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3903,7 +3903,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="337,287.3125">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="42,0"
               Start="0,0"
               End="34.5,0">
@@ -3927,7 +3927,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,309.625">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3949,7 +3949,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,386.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3971,7 +3971,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,462.875">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -3993,7 +3993,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
           TopLeft="198,539.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{x:Null}"
+              StartConnector="{assembly:Null}"
               EndConnector="0,32.625"
               Start="0,0"
               End="0,25.125">
@@ -4013,7 +4013,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</BinaryItem>
         <AnnotationLayout
           Text="Purpose: &#xA;Generate Supertable Structure in a flat XML and CMM files in ESB Event Table as Text &amp; Binary Format. &#xA;Also added new items are Crosswalk/Building and Staff Information.&#xA;&#xA;SSIS Package: &#xA;- LCGMS_ESB_NYCAPS_Extract&#xA;&#xA;SQL Table: &#xA;- LCGMS.dbo.LCGMS_ESB_Events_Table1  &#xA;- LCGMS.dbo.LCGMS_ESB_NYCAPS_IU_TS   &#xA;- LCGMS.dbo.LCGMS_ESB_Storage_Staging_NYCAPS &#xA;- LCGMS.dbo.LCGMS_ESB_Temp_Keys_NYCAPS  &#xA;&#xA;Stored Procedure:&#xA;- LCGMS.dbo.usp_LCGMS_ESB_Event_Process_For_NYCAPS &#xA;- LCGMS.dbo.usp_LCGMS_ESB_Refresh_Update_Dates_NYCAPS  &#xA;- LCGMS.dbo.usp_LCGMS_ESB_CreateKeys_NYCAPS  &#xA;- LCGMS.dbo.usp_LCGMS_ESB_Refresh_Update_Dates_NYCAPS_Switch &#xA;&#xA;Schedule To Execute:&#xA;- Every 15 minutes &#xA;&#xA;Email Message:&#xA;- To All Participants: DATALoadLCGMS@schools.nyc.gov &#xA;"
           ParentId="Package"
-          Size="422,362"
+          Size="422,360"
           Id="9548e787-e8d3-4922-a6fa-2757cae04249"
           TopLeft="1122,7">
           <AnnotationLayout.FontInfo>
